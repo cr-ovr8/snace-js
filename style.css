@@ -54,6 +54,11 @@
   border-right: 1px solid #d1d5db;
 }
 
+/* Добавляю обозначения маркированного списка для информации о себе т.к. ранее обозначения были убраны*/
+ul.aboutMe li{
+  list-style: square;
+}
+
 @media screen and (max-width: 800px) {
   .wrapper {
     width: 90vmin;

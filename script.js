@@ -151,6 +151,6 @@ document.addEventListener('snake:game_over', function (event) {
     // TODO: 5. Включить обработку события завершения игры
 
     clearInterval(intervalId);
-    alert('Игра окончена. НАжмите ок чтоб начать занаво');
+    alert('Игра окончена. Нажмите ок чтоб начать занаво');
     location.reload();
 });
